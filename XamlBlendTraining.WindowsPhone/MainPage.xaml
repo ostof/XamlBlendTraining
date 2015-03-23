@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="XamlBlendTraining.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XamlBlendTraining"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Pivot x:Uid="Pivot" Title="Hofstadter" x:Name="pivot">
+            <!--Home page-->
+            <PivotItem x:Uid="HomePage" Margin="19,14.5,0,0" Header="Start">
+                <StackPanel Background="red">
+                    
+                </StackPanel>
+            </PivotItem>
+            
+            <!--History page-->
+            <PivotItem>
+                
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>
